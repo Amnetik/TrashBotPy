@@ -3,6 +3,10 @@ from .PseudoRandom import NonRepeatingRandom
 import requests
 
 class TrashGenerator:
+    
+    def __init__(self, name):
+        self._name = name
+    
     def get_trash(self) -> str:
         return ''
     
@@ -10,13 +14,13 @@ class TrashGenerator:
         return self.__str__()
     
     def __str__(self):
-        return ''
+        return self._name
     
 class TrashGeneratorByList(TrashGenerator):
-    def __init__(self, filename: str):
+    def __init__(self, name: str, filename: str):
+        super().__init__(name)
         self._line_count = 0
-        path_to_lists = os.path.join(os.path.dirname(__file__), 'TrashByList')
-        self._path = os.path.join(path_to_lists, filename)
+        self._path = os.path.join(os.path.join(os.path.dirname(__file__), 'TrashByList'), filename)
         if not os.path.exists(self._path):
             self._path = None
             return
@@ -33,15 +37,10 @@ class TrashGeneratorByList(TrashGenerator):
                 return f.readlines()[random_line_index].strip()
         except:
             return ''
-        
-    def __str__(self):
-        try:
-            return str(os.path.basename(self._path)).removesuffix('.tl')
-        except:
-            return self._path.removesuffix('.tl')
        
 class TrashGeneratorByPrompt(TrashGenerator):
-    def __str__(self):
+    
+    def get_trash(self):
         # Send a GET request to a URL
         url = 'https://evilinsult.com/generate_insult.php?lang=en&type=text'  # Replace with your desired URL
         response = requests.get(url)

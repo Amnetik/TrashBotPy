@@ -3,9 +3,9 @@ import keyboard
 from Trash import *
 
 trash_rocket_league: dict[str, TrashGeneratorByList] = {
-    '1' : TrashGeneratorByList('what_a_save.tl'),
-    '2' : TrashGeneratorByList('nice_shot.tl'),
-    '3' : TrashGeneratorByList('gg.tl')
+    '1' : TrashGeneratorByList('What a save', 'rocket_league_trash_talk_saving.txt'),
+    '2' : TrashGeneratorByList('What a save', 'rocket_league_trash_talk_shooting.txt'),
+    '3' : TrashGeneratorByList('What a save', 'gg.tl')
 }
 
 def on_key_event(event: keyboard.KeyboardEvent):
