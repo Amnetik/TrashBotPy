@@ -1,0 +1,121 @@
+Your shooting accuracy is like a blindfolded dart thrower—nothing ever hits.  
+I've seen better aim from a broken compass.  
+Your shots are more off-target than a malfunctioning homing missile.  
+At this point, I think you're trying to hit the crossbar on purpose.  
+You shoot like you're trying to hit the ground with your car.  
+My grandma could shoot more accurately than you, and she thinks Rocket League is a cooking show.  
+I'm starting to think you're just playing the ball like a pinball machine.  
+Bro, I've seen better shots from a potato cannon.  
+The only thing you're scoring is a spot on my highlight reel for how bad you are.  
+Your shots are so wide, NASA is trying to track them.  
+Did you install a brick wall on your car instead of a ball cam?  
+I thought you were trying to score, but it looks more like you're practicing your dribbling... into the wall.  
+Your shooting technique has more in common with a misspelled word than an actual shot on goal.  
+The ball has to be terrified every time you line up a shot.  
+You shoot like you're trying to hit the ceiling with every goal attempt.  
+I've seen better placement from a kid who just learned how to walk.  
+Are you sure you're not just trying to get the ball to orbit Earth?  
+Your shooting is so bad, I'm starting to think you're allergic to the net.  
+Your shots go wider than a kid trying to avoid doing their homework.  
+I've seen someone miss less with a blindfold on.  
+Your shot accuracy is so terrible, I'm starting to feel bad for your car.  
+Your shooting technique is like using a rubber band to shoot cannonballs.  
+I've seen more precise aim from a sloth.  
+You're aiming like you're trying to miss every single shot on purpose.  
+That shot was so far off, it might land in the next match.  
+Did you think the goal was on the other side of the field? Because that's what your aim suggests.  
+Your shots are so soft, they might as well be pillow fights.  
+I'm starting to believe you're shooting for the other team.  
+The ball's path is more unpredictable than your sense of direction.  
+Is your controller malfunctioning or is this just your usual shot accuracy?  
+I didn't know we were playing Rocket League or trying to launch a rocket into the sun.  
+That shot missed so badly, I thought you were aiming for the spectator seats.  
+Even a broken clock has better timing than your shooting.  
+Your shot's trajectory is so bad, NASA's trying to track it for study.  
+Your shooting technique is like a toddler with a paintbrush—random and all over the place.  
+You miss the net so often, I'm starting to wonder if you think it's invisible.  
+That shot was so bad, it might land in the opponent's net by accident.  
+Your aim is so wild, I think you're auditioning for a role in a circus.  
+Your shots are like bad memes—unoriginal and cringeworthy.  
+Bro, you're shooting like you've never seen a goal before in your life.  
+Even the most broken AI would hit more shots than you.  
+Are you trying to send the ball to the moon, or are you attempting to score?  
+The only goal you're hitting is the "worst shot" highlight.  
+Your shot was so far off, I think you missed the entire field.  
+Your shooting technique is like a broken GPS—it always takes the wrong route.  
+Bro, you shoot like you're trying to get the ball stuck in a tree.  
+I think your car's aiming system needs a serious update.  
+The only thing you're shooting is yourself in the foot every time you line up a shot.  
+Is your car allergic to the goal? Because your shots are always going in the wrong direction.  
+Your shooting is so off, I'm convinced you're trying to teach the ball how to **avoid** the goal.  
+At this point, I'm considering offering you a free lesson on how to aim.  
+I've seen less erratic shots from a broken pinball machine.  
+That shot was so far from the goal, it might as well be on another field.  
+You shoot like you're using a rubber band instead of boost.  
+Even a blindfolded monkey could shoot more accurately than you.  
+You're shooting like your car's tires are made of butter—slippery and off course.  
+At this point, you should start practicing shooting with your eyes closed, because your open ones aren't helping.  
+That shot was so wide, I thought you were auditioning for the "missed shots" highlight reel.  
+Bro, your shots are so bad, I'm starting to believe you're trying to make me look good.  
+Your shooting technique looks like a game of dodgeball—except you're dodging the goal.  
+I've seen better aim from a broken slingshot.  
+Your shots go wider than your excuses for missing.  
+You're shooting like your car is allergic to hitting the ball properly.
+You missed that? Even a brick wall would've stopped it, you terrible shooter.
+Is that your version of a shot? My dog could aim better, you clown.
+I’ve seen more accurate shots from a toddler with a broken arm, you absolute disaster.
+How did you miss that? My grandma could've scored blindfolded, you idiot.
+Your shooting is like a broken GPS – completely lost, you moron.
+That shot had the precision of a drunken sloth, you terrible player.
+I think even the ball is trying to avoid you at this point, you fool.
+You’re about as accurate as a dart thrower with no arms, you failure.
+If I had a nickel for every time you missed, I’d be a millionaire by now, idiot.
+I’ve seen better shots from a person trying to throw a rock while blindfolded, you joke.
+Is that a shot or an attempt to give the other team the ball? Complete failure.
+I can’t believe how badly you missed. It’s like you were aiming for the sky, idiot.
+Even my grandma could shoot better, and she's still stuck in the '90s, dummy.
+What was that? Your shots have less direction than my old compass, you clown.
+I think the ball hates you. It’s avoiding you on purpose, you fool.
+You must be using a broken controller, because that was the worst shot ever, moron.
+I’ve seen more accuracy from a blindfolded pigeon, you embarrassment.
+You should really try hitting the target next time, idiot.
+That shot was as on target as a dartboard in an earthquake, you disaster.
+Every time you shoot, the ball just laughs at you, you joke.
+I don’t know if you’re trying to shoot or just looking for a new way to lose, fool.
+The way you shoot, it’s like you’re actively trying to avoid scoring, idiot.
+If bad shooting were an Olympic sport, you'd be taking home gold, you imbecile.
+At least you’ll never have to worry about hitting the ball, because you never do, dummy.
+I’ve seen more power in a feather than your shot, you weakling.
+I thought that shot was a joke... turns out you’re just that bad, moron.
+You miss more than a blindfolded sniper, you disaster.
+That shot was so off, I’m convinced you’re trying to miss on purpose, you idiot.
+Even a casual player with no experience would shoot better than you, you fool.
+Was that a shot, or are you just practicing your whiffs, idiot?
+I didn’t know the game allowed you to shoot from the wrong side, fool.
+I’d say ‘nice shot,’ but that’s an insult to good shots everywhere, you joke.
+That shot was as off target as your whole gameplay, you absolute clown.
+If you’re trying to miss, congratulations, you’re winning, idiot.
+Your shots are about as effective as a broken pencil, you disaster.
+If missing shots were an art, you’d be Picasso, you idiot.
+That shot was so weak, I thought the ball was going to fall asleep, fool.
+Your aim is so bad, you make stormtroopers look like sharpshooters, idiot.
+I’ve seen toddlers hit more accurate shots than that, you failure.
+Your shot has less accuracy than a drunk man with a dartboard, you joke.
+It’s impressive how bad your shooting is. You’re truly an inspiration, moron.
+I think you missed that shot by a mile, and I’m being generous, idiot.
+You should get an award for consistency – consistently bad, that is, fool.
+I’ve seen more accurate shooting in a game of pin the tail on the donkey, you disaster.
+Is your controller broken, or are you just pretending to shoot like that, idiot?
+That shot was so weak, I thought the ball was going to cry, you failure.
+If missing shots were a skill, you’d be a world champion, idiot.
+Your shots are like my internet connection – lagging and all over the place, fool.
+I think the ball’s afraid of you, so it just avoids you, you disaster.
+Your aim is so bad, you must be shooting with your eyes closed, idiot.
+Is there a prize for worst shot of the match? Because you’re definitely winning, fool.
+I’ve seen better aim from a jellyfish, you embarrassment.
+Your shots are like a boomerang – they always come back… but only to miss again, idiot.
+That shot was so weak, it almost made me cry for the ball, you fool.
+I don’t even know how you missed that, you must have been aiming for the wrong goal, moron.
+At this rate, the ball's going to start rejecting your shots, you disaster.
+I bet the ball’s trying to get away from you. I would too if I had to take those shots, idiot.
+Is your controller intentionally sabotaging your shots, or are you just this bad, fool?

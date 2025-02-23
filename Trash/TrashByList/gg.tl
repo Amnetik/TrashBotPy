@@ -1,0 +1,51 @@
+Congrats on losing—guess it's another day at the office for you.  
+That was a nice warm-up. Too bad you didn't make it to the real game.  
+Don't worry, it's not your fault. You just weren't **ready** for greatness.  
+I hope you enjoyed watching me score, because it's the only thing you'll be doing this game.  
+You gave me more space than my grandma gives me in her living room.  
+At least you got some practice in! Keep trying—maybe next time you'll score... or not.  
+Looks like my car's got more wins than your entire career.  
+Hey, thanks for the free win! I haven't had an easy game like that in ages.  
+You played well… if the goal was to lose with style.  
+You played like you were testing out a new car—too bad it didn't work.  
+Don't worry, I'll keep the spotlight on you, just so everyone can see how badly you failed.  
+Hey, it's cool, we all have bad days. Unfortunately, yours happens to be **every game**.  
+You know, I almost feel bad for you, but then I remember I just won.  
+That was cute. You almost got me to sweat, but not quite.  
+I thought I was playing against a bot, but it turns out you were just that predictable.  
+Good game—except it wasn't, because you never even stood a chance.  
+I think I just unlocked a new achievement for crushing hopes and dreams.  
+Was that a challenge? Because it felt more like a freebie.  
+Thanks for letting me practice my freestyle. Your defense was a joke.  
+You must be used to losing by now, huh?  
+Don't worry, your defeat is already recorded for **posterity**.  
+Well, that was fast. I didn't know I signed up for a speedrun challenge.  
+It's okay, you played like you were at least trying... **but not really**.  
+That was a nice stroll to victory—couldn't have asked for an easier game.  
+I almost didn't have to try—almost.  
+I'm just glad I didn't have to break a sweat to win this one.  
+I hope you saved some replays of that game—at least you can show your friends how badly you got owned.  
+At least you didn't get completely crushed... oh wait, yes you did.  
+Don't worry, I won't make fun of you… I'll just keep scoring.  
+You're like a speed bump on the way to victory—completely useless.  
+Well, at least you're consistent. Consistently terrible, but still.  
+Don't feel bad, even the best lose sometimes… and then there's you.  
+That was fun for about 10 seconds, then I realized I wasn't even breaking a sweat.  
+I don't need a “What a save!” to know you got wrecked.  
+Guess what? The game's over. And surprise, I won.  
+Looks like you spent more time **thinking** about winning than actually playing.  
+You played like you thought there was a reset button—too bad there isn't one in real life.  
+You're like a spectator, except you're in the wrong seat.  
+You can have a **consolation prize**: the knowledge that you lost to someone who didn't even have to try.  
+Oh, is the game over already? I almost didn't notice how fast you gave up.  
+Your performance was like a warm-up for me. Keep trying though—you'll get there, eventually.  
+You've been a good practice target. I'll try harder next time.  
+I guess you'll just have to get used to the feeling of defeat, huh?  
+Better luck next time—though I doubt you'll need it, since I won again.  
+Here's to you: always present, always losing.  
+I hope you enjoyed the view from the bottom, because you're staying there.  
+Your team was good at one thing: letting me score.  
+You definitely gave it your all... or at least that's what your **scoreboard** says.  
+The scoreboard says it all—you didn't even put up a fight.  
+I love when games are this easy. Makes the win taste sweeter.  
+Don't feel bad, at least you got a few seconds to enjoy the fee
