@@ -1,6 +1,9 @@
 import keyboard
 
-from Trash import *
+from TrashBot import *
+
+
+
 
 trash_rocket_league: dict[str, TrashGeneratorByList] = {
     '1' : TrashGeneratorByList('What a save', 'rocket_league_trash_talk_saving.txt'),

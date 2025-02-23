@@ -20,7 +20,7 @@ class TrashGeneratorByList(TrashGenerator):
     def __init__(self, name: str, filename: str):
         super().__init__(name)
         self._line_count = 0
-        self._path = os.path.join(os.path.join(os.path.dirname(__file__), 'TrashByList'), filename)
+        self._path = os.path.join(os.path.dirname(__file__), 'TrashByList', filename)
         if not os.path.exists(self._path):
             self._path = None
             return
