@@ -2,6 +2,7 @@
 import customtkinter
 import os
 from PIL import Image
+from ..game import Game
 
 class ScrollableCheckBoxFrame(customtkinter.CTkScrollableFrame):
     def __init__(self, master, item_list, command=None, **kwargs):
@@ -58,7 +59,7 @@ class ScrollableRadiobuttonFrame(customtkinter.CTkScrollableFrame):
         return self.radiobutton_variable.get()
 
 
-class ScrollableLabelButtonFrame(customtkinter.CTkScrollableFrame):
+class ScrollableGameSelection(customtkinter.CTkScrollableFrame):
     def __init__(self, master, command=None, **kwargs):
         super().__init__(master, **kwargs)
         self.grid_columnconfigure(0, weight=1)
@@ -68,13 +69,14 @@ class ScrollableLabelButtonFrame(customtkinter.CTkScrollableFrame):
         self.label_list = []
         self.button_list = []
 
-    def add_item(self, item, image=None):
-        label = customtkinter.CTkLabel(self, text=item, image=image, compound="left", padx=5, anchor="w")
-        button = customtkinter.CTkButton(self, text="Command", width=100, height=24)
+    def add_item(self, game: Game, image=None):
+        button = customtkinter.CTkRadioButton(self, text='', value=game, variable=self.radiobutton_variable)
+        label = customtkinter.CTkLabel(self, text=game, image=image, compound="left", padx=5, anchor="w")
+        
         if self.command is not None:
-            button.configure(command=lambda: self.command(item))
-        label.grid(row=len(self.label_list), column=0, pady=(0, 10), sticky="w")
-        button.grid(row=len(self.button_list), column=1, pady=(0, 10), padx=5)
+            button.configure(command=lambda: self.command(game))
+        button.grid(row=len(self.button_list), column=0, pady=(0, 10), padx=0)
+        label.grid(row=len(self.label_list), column=1, pady=(0, 10), sticky="w")
         self.label_list.append(label)
         self.button_list.append(button)
 
@@ -91,36 +93,27 @@ class App(customtkinter.CTk):
     def __init__(self):
         super().__init__()
 
-        self.title("CTkScrollableFrame example")
+        customtkinter.set_appearance_mode("System")  # Modes: system (default), light, dark
+        customtkinter.set_default_color_theme("blue")  # Themes: blue (default), dark-blue, green
+
+        self.title("Trashtalk Bot")
         self.grid_rowconfigure(0, weight=1)
         self.columnconfigure(2, weight=1)
 
+        # create scrollable label and button frame
+        self.scrollable_label_button_frame = ScrollableGameSelection(master=self, width=300, command=self.label_button_frame_event, corner_radius=0)
+        self.scrollable_label_button_frame.grid(row=0, column=0, padx=15, pady=15, sticky="nsew")
+        for game in Game.games:
+            self.scrollable_label_button_frame.add_item(game.name, image=customtkinter.CTkImage(Image.open(game.picture)))
+            
         # create scrollable checkbox frame
         self.scrollable_checkbox_frame = ScrollableCheckBoxFrame(master=self, width=200, command=self.checkbox_frame_event,
                                                                  item_list=[f"item {i}" for i in range(50)])
-        self.scrollable_checkbox_frame.grid(row=0, column=0, padx=15, pady=15, sticky="ns")
+        self.scrollable_checkbox_frame.grid(row=0, column=1, padx=15, pady=15, sticky="ns")
         self.scrollable_checkbox_frame.add_item("new item")
-
-        # create scrollable radiobutton frame
-        self.scrollable_radiobutton_frame = ScrollableRadiobuttonFrame(master=self, width=500, command=self.radiobutton_frame_event,
-                                                                       item_list=[f"item {i}" for i in range(100)],
-                                                                       label_text="ScrollableRadiobuttonFrame")
-        self.scrollable_radiobutton_frame.grid(row=0, column=1, padx=15, pady=15, sticky="ns")
-        self.scrollable_radiobutton_frame.configure(width=200)
-        self.scrollable_radiobutton_frame.remove_item("item 3")
-
-        # create scrollable label and button frame
-        current_dir = os.path.dirname(os.path.abspath(__file__))
-        self.scrollable_label_button_frame = ScrollableLabelButtonFrame(master=self, width=300, command=self.label_button_frame_event, corner_radius=0)
-        self.scrollable_label_button_frame.grid(row=0, column=2, padx=0, pady=0, sticky="nsew")
-        for i in range(20):  # add items with images
-            self.scrollable_label_button_frame.add_item(f"image and item {i}", image=customtkinter.CTkImage(Image.open(os.path.join(current_dir, "image", "chat_light.png"))))
 
     def checkbox_frame_event(self):
         print(f"checkbox frame modified: {self.scrollable_checkbox_frame.get_checked_items()}")
-
-    def radiobutton_frame_event(self):
-        print(f"radiobutton frame modified: {self.scrollable_radiobutton_frame.get_checked_item()}")
 
     def label_button_frame_event(self, item):
         print(f"label button frame clicked: {item}")

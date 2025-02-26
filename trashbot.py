@@ -2,8 +2,15 @@ import keyboard
 
 from TrashBot import *
 
+from TrashBot.UI.main_menu import App
 
 
+from customtkinter import ThemeManager
+
+app = App()
+app.mainloop()
+
+a = ThemeManager.theme
 
 trash_rocket_league: dict[str, TrashGeneratorByList] = {
     '1' : TrashGeneratorByList('What a save', 'rocket_league_trash_talk_saving.txt'),
