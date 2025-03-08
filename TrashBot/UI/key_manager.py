@@ -2,8 +2,8 @@ import keyboard
 from ..Trash.TrashGenerator import *
 
 class KeyListener():
-    def __init__(self, trash_dict):
-        self.trash_dict = trash_dict
+    def __init__(self, trash_dict: dict[str, TrashGenerator]):
+        self.trash_dict: dict[str, TrashGenerator] = trash_dict
         
     def __enter__(self):
         keyboard.hook(self.on_key_event)

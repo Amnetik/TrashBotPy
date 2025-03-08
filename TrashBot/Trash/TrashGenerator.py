@@ -25,6 +25,7 @@ class TrashGeneratorByList(TrashGenerator):
             self._path = None
             return
         with open(self._path, 'r+', encoding='utf-8') as f:
+            f.seek(0)
             self._line_count = len([l for l in f.readlines() if l.strip() != ''])
         self._pseudo_random = NonRepeatingRandom(self._line_count)
             
@@ -33,9 +34,11 @@ class TrashGeneratorByList(TrashGenerator):
             return ''
         random_line_index = self._pseudo_random.get_next()
         try:
-            with open(self._path) as f:
+            with open(self._path, 'r+', encoding='utf-8') as f:
+                f.seek(0)
                 return f.readlines()[random_line_index].strip()
-        except:
+        except Exception as e:
+            raise e
             return ''
        
 class TrashGeneratorByPrompt(TrashGenerator):
