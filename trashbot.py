@@ -1,33 +1,20 @@
-import keyboard
-
 from TrashBot import *
-
 from TrashBot.UI.main_menu import App
+from TrashBot.UI.key_manager import KeyListener
 
-
-from customtkinter import ThemeManager
-
-app = App()
-app.mainloop()
-
-a = ThemeManager.theme
-
-trash_rocket_league: dict[str, TrashGeneratorByList] = {
-    '1' : TrashGeneratorByList('What a save', 'rocket_league_trash_talk_saving.txt'),
-    '2' : TrashGeneratorByList('What a save', 'rocket_league_trash_talk_shooting.txt'),
-    '3' : TrashGeneratorByList('What a save', 'gg.tl')
+trash_rocket_league: dict[str, TrashGenerator] = {
+    '1' : TrashGeneratorByList('What a save', 'what_a_save.txt'),
+    '2' : TrashGeneratorByList('Nice shot', 'nice_shot.txt'),
+    '3' : TrashGeneratorByList('GG', 'gg.tl'),
+    '4' : TrashGeneratorByList('GG', 'gg.tl'),
+    '5' : TrashGeneratorByList('GG', 'gg.tl'),
+    '6' : TrashGeneratorByList('GG', 'gg.tl'),
+    '7' : TrashGeneratorByList('Light insult', 'light_insult.tl'),
+    '8' : TrashGeneratorByList('Medium insult', 'medium_insult.tl'),
+    '9' : TrashGeneratorByList('Hard insult', 'gg.tl')
 }
 
-def on_key_event(event: keyboard.KeyboardEvent):
-    if not event.name in trash_rocket_league.keys() or event.event_type == 'up':
-        return
-    print(f"Key {event.name} {event.event_type} {trash_rocket_league.get(event.name, TrashGenerator)}")
-    keyboard.press('enter')
-    keyboard.write(trash_rocket_league[event.name].get_trash())
-    keyboard.press('enter')
+with KeyListener(trash_rocket_league):
+    app = App(trash_rocket_league)
+    app.mainloop()
 
-keyboard.hook(on_key_event)  # Hook function to listen to all key events
-
-print('Running..')
-
-keyboard.wait('esc')  # Keep running until 'esc' is pressed
