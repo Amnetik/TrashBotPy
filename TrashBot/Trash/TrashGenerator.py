@@ -3,7 +3,6 @@ from .PseudoRandom import NonRepeatingRandom
 import requests
 
 class TrashGenerator:
-    
     def __init__(self, name):
         self._name = name
     
@@ -39,10 +38,8 @@ class TrashGeneratorByList(TrashGenerator):
                 return f.readlines()[random_line_index].strip()
         except Exception as e:
             raise e
-            return ''
        
 class TrashGeneratorByPrompt(TrashGenerator):
-    
     def get_trash(self):
         # Send a GET request to a URL
         url = 'https://evilinsult.com/generate_insult.php?lang=en&type=text'  # Replace with your desired URL

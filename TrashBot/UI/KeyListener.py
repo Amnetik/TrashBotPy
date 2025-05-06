@@ -1,7 +1,10 @@
 import keyboard
+import queue
 from ..Trash.TrashGenerator import *
 
 class KeyListener():
+    fifo_queue: queue.Queue = queue.Queue()
+    
     def __init__(self, trash_dict: dict[str, TrashGenerator]):
         self.trash_dict: dict[str, TrashGenerator] = trash_dict
         
@@ -14,7 +17,6 @@ class KeyListener():
     def on_key_event(self, event: keyboard.KeyboardEvent):
         if not event.name in self.trash_dict.keys() or event.event_type == 'up':
             return
-        print(f"Key {event.name} {event.event_type} {self.trash_dict.get(event.name, TrashGenerator)}")
-        keyboard.press('enter')
-        keyboard.write(self.trash_dict[event.name].get_trash())
-        keyboard.press('enter')
+        KeyListener.fifo_queue.put(self.trash_dict[event.name].get_trash())
+
+                

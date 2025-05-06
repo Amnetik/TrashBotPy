@@ -1,6 +1,7 @@
 from TrashBot import *
-from TrashBot.UI.main_menu import App
-from TrashBot.UI.key_manager import KeyListener
+#from TrashBot.UI.GraphicalInterface import App
+from TrashBot.UI.KeyListener import KeyListener
+import keyboard
 
 trash_rocket_league: dict[str, TrashGenerator] = {
     '1' : TrashGeneratorByList('What a save', 'what_a_save.txt'),
@@ -15,6 +16,10 @@ trash_rocket_league: dict[str, TrashGenerator] = {
 }
 
 with KeyListener(trash_rocket_league):
-    app = App(trash_rocket_league)
-    app.mainloop()
+    while True:
+        message = KeyListener.fifo_queue.get()
+        keyboard.press('enter')
+        keyboard.write(message)
+        keyboard.press('enter')
+
 
